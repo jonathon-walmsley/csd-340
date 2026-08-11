@@ -1,2 +1,4 @@
-# csd-340
-Repo for CSD340-300H Web Development with HTML
+<h1>CSD 340 Web Development with HTML an</h1>
+<h2>Contributors</h2>
+<ul>Sue Sampson</ul>
+<ul>Jonathon Walmsely</ul>
