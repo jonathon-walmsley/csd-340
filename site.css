@@ -1,0 +1,38 @@
+/*
+    Jonathon Walmsely 
+    08/23/2026 
+    Module 3.2
+*/
+body {
+    background-color: rgb(13, 17, 23);
+    font-family: "Charis SIL", serif;
+    color: #e3f1e3;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #335f33; 
+    color: #FFF; 
+    border: 1px solid #544666;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    color: #a9e9a9; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #d3df2b;
+}
