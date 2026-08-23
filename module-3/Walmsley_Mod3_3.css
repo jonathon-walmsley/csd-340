@@ -1,0 +1,64 @@
+/*
+    Jonathon Walmsley 
+    08/23/2026 
+    Module 3.3
+*/
+
+#container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+div.side-by-side {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.left {
+    float: left;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+div.right {
+    float: right;
+    border: 1px dotted red;
+    border-radius: 15px;
+}
+
+ol {
+    font-weight: 300;
+    list-style-position: outside;
+    padding-left: 40px;
+}
+
+ol.learned-list {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    padding-left: 40px;
+}
+
+div.bottom {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+div.bottom a {
+    float: right;
+    text-decoration: none;
+}
+
+div.bottom a:hover {
+    text-decoration: underline;
+}
