@@ -1,0 +1,70 @@
+/*
+Jonathon Walmsley 
+08/30/2026 
+Module 4.2
+*/
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header" 
+        "gallery" 
+        "footer";
+}
+
+h1, h3, figure {
+    text-align: center;
+    color: rgb(190, 102, 30);
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+/* Mobile-first design: single column layout for small screens - use Media Query below for Desktop view */
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+#image-gallery div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.side-by-side img {
+    width: 50%;
+    height: auto;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+#footer a {
+    float: right;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* Set 3 columns for desktop view */
+@media (min-width: 768px) {
+    #image-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
