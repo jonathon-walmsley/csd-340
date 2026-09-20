@@ -1,0 +1,146 @@
+/*
+    Jonathon Walmsley 
+    09/20/2026 
+    Module 8.2
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 60px; 
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #335f33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #335f33;
+    border-bottom: 15px solid #c41515;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #c41515;
+    color: white;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 400;
+    color: #c41515;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card-content ol, .card-content ul {
+    padding-bottom: 16px;
+    padding-left: 20px;
+}
+
+.card-content li {
+    margin-bottom: 6px;
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    text-align: left;
+
+    background-color: #c41515;
+    color: #ffffff;
+}
+
+#movies td {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 8px;
+}
+
+#movies td ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #335f33;
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+/* Ensure the link inside the footer matches the design */
+footer a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #ffffff;
+}
